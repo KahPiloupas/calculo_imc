@@ -10,7 +10,7 @@ const calculoIMC = () => {
         if (imc < 18.5){
             classificação = "ABAIXO DO PESO"
         } else if (imc < 25){
-            classificação = "NORMAL"
+            classificação = "PESO IDEAL"
         } else if(imc < 30){
             classificação = "SOBREPESO"
         } else if(imc < 35){
